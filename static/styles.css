@@ -1,0 +1,85 @@
+/*
+General styling fot the page
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+html {
+    scroll-behavior: smooth;   
+}
+
+p{
+    color: antiquewhite;
+}
+.churchInfo {
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    height: 3vh;
+}
+/*
+transition
+*/
+
+a, .button {
+    transition: all 300 ms ease;
+}
+
+nav, .navLinks, .churchInfo, .addyInfo, .tlfInfo {
+    display: flex;
+}
+
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.navLinks {
+    gap: 1rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration: whitespace;
+    font-size: large;
+
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    
+}
+.churchLogo {
+    font-size: 36px;
+    font-family: 'Anton', sans-serif;
+    color: #333333
+}
+.churchLogo:hover {
+    cursor: default;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #333333;
+    margin: 20px 0; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
