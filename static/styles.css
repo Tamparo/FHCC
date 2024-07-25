@@ -1,6 +1,6 @@
 /*
 General styling fot the page
-*/
+
 
 
 * {
@@ -11,6 +11,7 @@ General styling fot the page
 body {
     background-color: blanchedalmond;
     font-family: 'Times New Roman', Times, serif;
+    
 
 }
 
@@ -32,13 +33,15 @@ transition
 */
 
 a, .button {
-    transition: all 300 ms ease;
+    transition: all 400 ms ease-in-out;
 }
 
 nav, .navLinks, .churchInfo, .addyInfo, .tlfInfo {
     display: flex;
 }
-
+.addyInfo, .tlfInfo {
+    font-size: 10px ;
+}
 
 nav {
     justify-content: space-around;
@@ -71,7 +74,7 @@ a:hover {
     color: #333333
 }
 .churchLogo:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 hr {
@@ -82,4 +85,4 @@ hr {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
