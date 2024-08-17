@@ -19,8 +19,8 @@ body {
     height: 93vh; 
     margin: 0 auto; 
     background-color: #fff;
-    padding: 20px;
-    border-radius: 8px; 
+    padding: 2rem;
+    border-radius: 4px; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         
 }
@@ -224,16 +224,19 @@ h2 {
 .contentBox {
     width: 80%;
     height: 50vh;
-    padding: 0;
+    padding: 0.2rem;
     background-color: #fff;
     /*border-radius: 5px;*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .detail {
     font-size: medium;
-    list-style:inside
+    list-style:inside;
+    gap: 1px;
 
 }
 
@@ -250,11 +253,20 @@ h2 {
     object-fit: cover;
 }
 
-iframe {
+/*mapGoogle {
     width: auto;
     height: auto;
-    aspect-ratio: 16/9;
+    
     border: none;
     border-radius: 5px;
     max-width: 50%;
+}
+*/
+
+
+.mapGoogle {
+    padding-left: .5%;
+    height: 55%;
+    width: 100%;
+    border-radius:.31rem ;
 }
